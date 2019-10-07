@@ -26,4 +26,4 @@ json='{"attachments": [{ "color":"%s","pretext":"%s","title":"%s","text":"%s"}]}
 
 payload=$(printf "$json" "$color" "$1" "$2" "$3")
 
-curl -X POST -H 'Content-type: application/json' --data "$payload"  https://hooks.slack.com/services/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
+curl -X POST -H 'Content-type: application/json' --data "$payload"  <Input your Webhook URL here>
